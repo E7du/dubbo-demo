@@ -26,7 +26,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 
 import vip.e7du.dubbodemo.api.ServiceA;
 
-@Service
+@Service(version="1.0.0", owner="JobsZ")
 public class ServiceAImpl implements ServiceA {
 
 	@Override

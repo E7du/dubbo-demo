@@ -32,7 +32,7 @@ import vip.e7du.dubbodemo.api.ServiceB;
 @Component("ServiceAConsumer")
 public class ServiceAConsumer {
 
-	@Reference
+	@Reference(version="1.0.0")
 	private ServiceA serviceA;
 	
 	@Reference
